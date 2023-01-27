@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import NavBar from './components/NavBar/Navbar'
 import Form from './components/Form/Form'
@@ -8,7 +8,7 @@ import GreatingPage from './components/GreatingPage/GreatingPage'
 //TODO: refactor for varables /variableID
 const App = () => {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <div className="app-wrapper">
                 <NavBar />
                 <Routes>
@@ -17,7 +17,7 @@ const App = () => {
                     <Route path="/variables" element={<Variables />} />
                 </Routes>
             </div>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
