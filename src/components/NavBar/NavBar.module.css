@@ -1,8 +1,10 @@
 .item a {
     text-decoration: none;
-    color: rgb(246, 240, 240);
+    font-weight: 700;
+    color: #151618;
+    font-size: 1.5em;
 }
 
 .item a.active {
-    color: rgba(40, 151, 255, 0.633);
+    color: rgba(22, 22, 181, 0.633);
 }

@@ -1,4 +1,57 @@
-vin_form {
+.vin_form {
     display: grid;
     grid-area: f;
+}
+
+.form_input {
+    border-radius: 1em;
+    border: solid 0.1em #2c3e50;
+    padding: 0.5em 1em;
+    transition: all 0.2s ease-in-out;
+    background-color: #ffffff;
+    color: #2c3e50;
+    font-size: 1em;
+    width: 100%;
+}
+
+.form_input:hover {
+    border-color: #3498db;
+    box-shadow: 0 0 10px #3498db;
+}
+
+.form_input:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 10px #3498db;
+    background-color: #f1f1f1;
+}
+
+.error_block {
+    background-color: #230808;
+    background-image: linear-gradient(to right, #ffd2d2, #ffa4a4);
+    padding: 1em;
+    border-radius: 0.5em;
+    margin: 1em 0;
+    font-weight: bold;
+    color: #a94442;
+    text-align: center;
+}
+
+.cool_button {
+    background-color: #3498db;
+    color: #ffffff;
+    border-radius: 0.5em;
+    padding: 0.5em 1em;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    font-size: 1.2em;
+    border: none;
+}
+
+.cool_button:hover {
+    background-color: #2980b9;
+    cursor: pointer;
+}
+
+.cool_button:active {
+    background-color: #2c3e50;
 }

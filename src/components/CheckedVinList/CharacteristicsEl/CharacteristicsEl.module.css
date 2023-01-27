@@ -1,0 +1,13 @@
+.content_wrapper {
+    font-size: 1.2em;
+    color: #17191a;
+    margin: 1em 0;
+}
+
+.content_label {
+    font-weight: bold;
+}
+
+.content_value {
+    font-style: italic;
+}

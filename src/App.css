@@ -1,6 +1,7 @@
 html,
 body {
-    background: #f9f10c;
+    background-image: radial-gradient(circle, #a7ffeb, #faffd1);
+    background-size: cover;
     font-family: 'Ubuntu';
 }
 
@@ -11,14 +12,19 @@ body {
 .app-wrapper {
     display: grid;
     grid-template-areas:
-        'f v'
-        'ch v';
+        'form variables'
+        'content';
 
-    grid-template-rows: 90px 1fr;
-    grid-template-columns: 2fr 10fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
     grid-gap: 10px;
 
-    width: 1200px;
+    width: 700px;
     margin: 0 auto;
     padding: 20px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: linear-gradient(to bottom, #089c30, #5aa86c);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5em;
 }

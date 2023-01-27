@@ -1,7 +1,4 @@
-checked_list {
-    grid-area: ch;
-}
-
-checked_variables {
-    text-decoration-color: white;
+.checked_list {
+    display: grid;
+    grid-area: content;
 }
