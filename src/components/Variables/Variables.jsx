@@ -3,6 +3,8 @@ import s from './Variables.module.css'
 import ExtendedVariables from './ExtendedVariables/ExtendedVariables'
 import { checkAPI } from '../../api/api'
 
+//comment for checking
+
 const Variables = (props) => {
     const [extendedVarList, setExtendedVarList] = useState([])
 
